@@ -1,0 +1,217 @@
+{
+ "live": "https://jupyter-mcp-server.datalayer.tech/mcp/",
+ "checked_at": "2026-10-22T12:37:00Z",
+ "pages": [
+  {
+   "page": "configuration/",
+   "local_sha256": "9aff6ebee81411a2fd8b4b5aab7724457e3004db6773637a1f9152ef98af8b7f",
+   "live_sha256": "9aff6ebee81411a2fd8b4b5aab7724457e3004db6773637a1f9152ef98af8b7f",
+   "local_bytes": 31202,
+   "live_bytes": 31202,
+   "identical": true
+  },
+  {
+   "page": "/",
+   "local_sha256": "5f39baca55384af88a380d8aaeb680a7aa3a48ae2e795d5a1d3600a362d088c9",
+   "live_sha256": "5f39baca55384af88a380d8aaeb680a7aa3a48ae2e795d5a1d3600a362d088c9",
+   "local_bytes": 30766,
+   "live_bytes": 30766,
+   "identical": true
+  },
+  {
+   "page": "prompts/jupyter-cite/",
+   "local_sha256": "22c7584f9eb6ee3cc47404363a723fad2001b0c27680b7b709b73b530d73db4b",
+   "live_sha256": "22c7584f9eb6ee3cc47404363a723fad2001b0c27680b7b709b73b530d73db4b",
+   "local_bytes": 28624,
+   "live_bytes": 28624,
+   "identical": true
+  },
+  {
+   "page": "reference/",
+   "local_sha256": "ef5097a1e3f7201bfdb500963db92c34d4167bbf3ed09d4970b0a10484b7bf40",
+   "live_sha256": "ef5097a1e3f7201bfdb500963db92c34d4167bbf3ed09d4970b0a10484b7bf40",
+   "local_bytes": 1150037,
+   "live_bytes": 1150037,
+   "identical": true
+  },
+  {
+   "page": "tools/clear-cell-output/",
+   "local_sha256": "05e224ae8105ebea6c6d320fc8601263e27aaed704d88c5829610dee429a9521",
+   "live_sha256": "05e224ae8105ebea6c6d320fc8601263e27aaed704d88c5829610dee429a9521",
+   "local_bytes": 39788,
+   "live_bytes": 39788,
+   "identical": true
+  },
+  {
+   "page": "tools/connect-to-jupyter/",
+   "local_sha256": "ba8584e452e91ad9af8695322d9574699c7db81d43fc658d4b83811f5d584e07",
+   "live_sha256": "ba8584e452e91ad9af8695322d9574699c7db81d43fc658d4b83811f5d584e07",
+   "local_bytes": 40357,
+   "live_bytes": 40357,
+   "identical": true
+  },
+  {
+   "page": "tools/delete-cell/",
+   "local_sha256": "cb0f238c6e0c524e637a73c0a5f7e20eb069879d5f48fd6cd40327392df2a9c0",
+   "live_sha256": "cb0f238c6e0c524e637a73c0a5f7e20eb069879d5f48fd6cd40327392df2a9c0",
+   "local_bytes": 40735,
+   "live_bytes": 40735,
+   "identical": true
+  },
+  {
+   "page": "tools/edit-cell-source/",
+   "local_sha256": "7d4765d905d9f2c566fb318b2ccc46b4115a9fbf5dcea438d5b1642cf4fddb52",
+   "live_sha256": "7d4765d905d9f2c566fb318b2ccc46b4115a9fbf5dcea438d5b1642cf4fddb52",
+   "local_bytes": 42530,
+   "live_bytes": 42530,
+   "identical": true
+  },
+  {
+   "page": "tools/execute-cell/",
+   "local_sha256": "8974d39e4f4e989d2c0678eda46337da56b586ca5e102e2ab351900322be6bff",
+   "live_sha256": "8974d39e4f4e989d2c0678eda46337da56b586ca5e102e2ab351900322be6bff",
+   "local_bytes": 43753,
+   "live_bytes": 43753,
+   "identical": true
+  },
+  {
+   "page": "tools/execute-code/",
+   "local_sha256": "bc62c0038fb2e7b11e85d4eb95f6194064d8e81a7f677bfb6dad21e5e106e655",
+   "live_sha256": "bc62c0038fb2e7b11e85d4eb95f6194064d8e81a7f677bfb6dad21e5e106e655",
+   "local_bytes": 43813,
+   "live_bytes": 43813,
+   "identical": true
+  },
+  {
+   "page": "tools/insert-cell/",
+   "local_sha256": "7f5346de343f6ecea679790dd381a0698b46073944e1df39be861137572f5c33",
+   "live_sha256": "7f5346de343f6ecea679790dd381a0698b46073944e1df39be861137572f5c33",
+   "local_bytes": 40166,
+   "live_bytes": 40166,
+   "identical": true
+  },
+  {
+   "page": "tools/insert-execute-code-cell/",
+   "local_sha256": "3c65e5f735e6e079f24ab7bddaf52c9725e9a5c17336807a680a853ba8a77c1b",
+   "live_sha256": "3c65e5f735e6e079f24ab7bddaf52c9725e9a5c17336807a680a853ba8a77c1b",
+   "local_bytes": 43883,
+   "live_bytes": 43883,
+   "identical": true
+  },
+  {
+   "page": "tools/launch-sandbox/",
+   "local_sha256": "73bd2b212e4ea9f34f58d6a4631e1e8e153c43265044497fb25bfc3d7e83c740",
+   "live_sha256": "73bd2b212e4ea9f34f58d6a4631e1e8e153c43265044497fb25bfc3d7e83c740",
+   "local_bytes": 48536,
+   "live_bytes": 48536,
+   "identical": true
+  },
+  {
+   "page": "tools/list-files/",
+   "local_sha256": "e6dfa21a7b1b5f7f6b2e13961dcb3eec0f29b2db65f7e78d5d1c478872b4c62a",
+   "live_sha256": "e6dfa21a7b1b5f7f6b2e13961dcb3eec0f29b2db65f7e78d5d1c478872b4c62a",
+   "local_bytes": 44226,
+   "live_bytes": 44226,
+   "identical": true
+  },
+  {
+   "page": "tools/list-kernels/",
+   "local_sha256": "428e3fc157f919d647e5832656c176cc0f65628d9e084148a93cee183691c098",
+   "live_sha256": "428e3fc157f919d647e5832656c176cc0f65628d9e084148a93cee183691c098",
+   "local_bytes": 40486,
+   "live_bytes": 40486,
+   "identical": true
+  },
+  {
+   "page": "tools/list-notebooks/",
+   "local_sha256": "fc1884cea11d6bb57b2ffb30ad36960840072b22fe7ce7cbfba10ce9f60aa17c",
+   "live_sha256": "fc1884cea11d6bb57b2ffb30ad36960840072b22fe7ce7cbfba10ce9f60aa17c",
+   "local_bytes": 40290,
+   "live_bytes": 40290,
+   "identical": true
+  },
+  {
+   "page": "tools/list-sandboxes/",
+   "local_sha256": "9297b727dbfd8f4b0911a88658180b058492a0edd57e4419830c4f8c359f08eb",
+   "live_sha256": "9297b727dbfd8f4b0911a88658180b058492a0edd57e4419830c4f8c359f08eb",
+   "local_bytes": 36947,
+   "live_bytes": 36947,
+   "identical": true
+  },
+  {
+   "page": "tools/move-cell/",
+   "local_sha256": "2b546a87fb550b643349c096b446f918db92f5412cd984ee328b4005da3c6cf1",
+   "live_sha256": "2b546a87fb550b643349c096b446f918db92f5412cd984ee328b4005da3c6cf1",
+   "local_bytes": 41538,
+   "live_bytes": 41538,
+   "identical": true
+  },
+  {
+   "page": "tools/overwrite-cell-source/",
+   "local_sha256": "7ca5975428c43a990c680ee869a0e7ad70ab2286f6e88f7defe2b2063edba816",
+   "live_sha256": "7ca5975428c43a990c680ee869a0e7ad70ab2286f6e88f7defe2b2063edba816",
+   "local_bytes": 40679,
+   "live_bytes": 40679,
+   "identical": true
+  },
+  {
+   "page": "tools/read-cell/",
+   "local_sha256": "6bba9338fbcf0509b9d2ebb5f3218c47c8ccd6fa1e77d3d0404409e29161e6ce",
+   "live_sha256": "6bba9338fbcf0509b9d2ebb5f3218c47c8ccd6fa1e77d3d0404409e29161e6ce",
+   "local_bytes": 42956,
+   "live_bytes": 42956,
+   "identical": true
+  },
+  {
+   "page": "tools/read-notebook/",
+   "local_sha256": "ccf838e6cc41fb1b696491360740be1660ee2c4985b23e9c9e7da0bc0dabe72f",
+   "live_sha256": "ccf838e6cc41fb1b696491360740be1660ee2c4985b23e9c9e7da0bc0dabe72f",
+   "local_bytes": 40608,
+   "live_bytes": 40608,
+   "identical": true
+  },
+  {
+   "page": "tools/restart-notebook/",
+   "local_sha256": "08360a104cf7eaa638e2890c4becd5fe6b40b1a6a8bd19694a7e8b6675274418",
+   "live_sha256": "08360a104cf7eaa638e2890c4becd5fe6b40b1a6a8bd19694a7e8b6675274418",
+   "local_bytes": 37649,
+   "live_bytes": 37649,
+   "identical": true
+  },
+  {
+   "page": "tools/terminate-sandbox/",
+   "local_sha256": "9a2e8aaef12d587e4773bac3f48fb2eda4be6573ae8e62436443965cbf96a0b8",
+   "live_sha256": "9a2e8aaef12d587e4773bac3f48fb2eda4be6573ae8e62436443965cbf96a0b8",
+   "local_bytes": 37695,
+   "live_bytes": 37695,
+   "identical": true
+  },
+  {
+   "page": "tools/unuse-notebook/",
+   "local_sha256": "b9a88865e5adfee9bb02c79818f5d8f90fef58e9ffd220b20b4ca9421b02d3d1",
+   "live_sha256": "b9a88865e5adfee9bb02c79818f5d8f90fef58e9ffd220b20b4ca9421b02d3d1",
+   "local_bytes": 37703,
+   "live_bytes": 37703,
+   "identical": true
+  },
+  {
+   "page": "tools/use-notebook/",
+   "local_sha256": "54accdcb2c229b2d885acb02db625b8cb8215f5055cf65963f6b5010a193da8b",
+   "live_sha256": "54accdcb2c229b2d885acb02db625b8cb8215f5055cf65963f6b5010a193da8b",
+   "local_bytes": 41263,
+   "live_bytes": 41263,
+   "identical": true
+  },
+  {
+   "page": "tools/use-sandbox/",
+   "local_sha256": "7403085f77b39199eb8b00188facbd1b76e01dbaf4ad81e5e9fee23b5077ac31",
+   "live_sha256": "7403085f77b39199eb8b00188facbd1b76e01dbaf4ad81e5e9fee23b5077ac31",
+   "local_bytes": 37904,
+   "live_bytes": 37904,
+   "identical": true
+  }
+ ],
+ "identical": 26,
+ "different": [],
+ "missing_live": []
+}
