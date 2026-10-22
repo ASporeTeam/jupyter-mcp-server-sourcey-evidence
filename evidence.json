@@ -124,9 +124,12 @@
   },
   {
    "id": "governed-receipt",
-   "statement": "The governed run is sealed as a runx receipt and is recomputable by anyone: `runx verify <receipt-id>` re-checks it. TODO-a3: replace the placeholder below with the receipt id of the run over THIS rebuild (the runx receipt schema is runx.receipt.v1; the venue binds it as runx:receipt:sha256:<64hex>).",
-   "command": "runx verify <receipt-id>",
-   "output": "TODO-a3-RECEIPT-ID"
+   "statement": "The governed validation run was executed with the runx CLI (version line recorded verbatim in the runx-cli-version observation) and is sealed as a runx receipt over the rebuild-and-compare work: the receipt's attestation binds the action, the principal, the exact claim and three evidence refs (the published landing page digest, the per-page parity digest and the pinned source tree). The sealed bytes are published and recomputable with `runx verify --receipt receipt.json --json`.",
+   "command": "runx verify --receipt receipt.json --json",
+   "output": "valid=true, digest valid, content_address valid, signature valid (Ed25519), findings=[] ; receipt id sha256:c240456c7ac931efe12457cc20525cc84e1b6570b064d026787748d9c89ec273 ; bound as runx:receipt:sha256:c240456c7ac931efe12457cc20525cc84e1b6570b064d026787748d9c89ec273",
+   "receipt_id": "sha256:c240456c7ac931efe12457cc20525cc84e1b6570b064d026787748d9c89ec273",
+   "receipt_url": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/receipt.json",
+   "verification_output_url": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/verification-output.json"
   }
  ],
  "target": {
@@ -333,5 +336,16 @@
   "the published sitemap.xml carries the Sourcey generator marker",
   "the governed runx receipt is recomputable with `runx verify <receipt-id>`",
   "the runx CLI version output is recorded verbatim in the observations"
- ]
+ ],
+ "artifacts": {
+  "public_url": "https://jupyter-mcp-server.datalayer.tech/mcp/",
+  "evidence_json": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/evidence.json",
+  "report": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/report.md",
+  "receipt_ref": "runx:receipt:sha256:c240456c7ac931efe12457cc20525cc84e1b6570b064d026787748d9c89ec273",
+  "receipt_json": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/receipt.json",
+  "verification_output": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/verification-output.json",
+  "parity_json": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/parity.json",
+  "inventory_json": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/inventory.json",
+  "reproduce": "https://asporeteam.github.io/jupyter-mcp-server-sourcey-evidence/REPRODUCE.md"
+ }
 }
