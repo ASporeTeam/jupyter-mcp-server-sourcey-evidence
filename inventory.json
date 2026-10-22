@@ -1,0 +1,197 @@
+{
+ "target": {
+  "repo": "https://github.com/datalayer/jupyter-mcp-server",
+  "commit": "ef47e8b9c9bfce1a23265831a1ad80f94d58bb85",
+  "license": "BSD-3-Clause",
+  "adapter": "mcp (Sourcey MCP adapter) + markdown guides",
+  "sourcey_site_of_record": "https://jupyter-mcp-server.datalayer.tech/mcp/",
+  "package": "sourcey"
+ },
+ "count": 23,
+ "items": [
+  {
+   "name": "list_files",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 716,
+   "description": "The starting path to list from (empty string means root directory)",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/list-files/"
+  },
+  {
+   "name": "list_kernels",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 760,
+   "description": "List all available kernels in the Jupyter server. This tool shows all running and available kernel sessions on the Jupyter server, including their IDs, names, states, connection information, and kernel specifications. Useful for monitoring kernel resources and identifying specific kernels for connection.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/list-kernels/"
+  },
+  {
+   "name": "use_notebook",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 793,
+   "description": "Unique identifier for the notebook",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/use-notebook/"
+  },
+  {
+   "name": "list_notebooks",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 873,
+   "description": "List all notebooks that have been used via use_notebook tool",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/list-notebooks/"
+  },
+  {
+   "name": "restart_notebook",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 894,
+   "description": "Restart the kernel for a specific notebook.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/restart-notebook/"
+  },
+  {
+   "name": "unuse_notebook",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 919,
+   "description": "Unuse from a specific notebook and release its resources.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/unuse-notebook/"
+  },
+  {
+   "name": "read_notebook",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 949,
+   "description": "Notebook identifier to read",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/read-notebook/"
+  },
+  {
+   "name": "insert_cell",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1003,
+   "description": "Target index for insertion (0-based), use -1 to append at end",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/insert-cell/"
+  },
+  {
+   "name": "overwrite_cell_source",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1045,
+   "description": "Index of the cell to overwrite (0-based). Omit when passing cell_id.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/overwrite-cell-source/"
+  },
+  {
+   "name": "edit_cell_source",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1108,
+   "description": "Index of the cell to edit (0-based). Omit when passing cell_id.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/edit-cell-source/"
+  },
+  {
+   "name": "execute_cell",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1179,
+   "description": "Index of the cell to execute (0-based). Omit when passing cell_id.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/execute-cell/"
+  },
+  {
+   "name": "insert_execute_code_cell",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1258,
+   "description": "Index of the cell to insert and execute (0-based)",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/insert-execute-code-cell/"
+  },
+  {
+   "name": "read_cell",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1336,
+   "description": "Index of the cell to read (0-based). Omit when passing cell_id.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/read-cell/"
+  },
+  {
+   "name": "delete_cell",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1400,
+   "description": "List of cell indices to delete (0-based). Omit when passing cell_ids_to_delete.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/delete-cell/"
+  },
+  {
+   "name": "clear_cell_output",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1464,
+   "description": "Index of the code cell to clear (0-based). Omit when passing cell_id.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/clear-cell-output/"
+  },
+  {
+   "name": "move_cell",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1525,
+   "description": "Index of the cell to move (0-based). Omit when passing source_cell_id.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/move-cell/"
+  },
+  {
+   "name": "execute_code",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1608,
+   "description": "Code to execute (supports magic commands with %, shell commands with !)",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/execute-code/"
+  },
+  {
+   "name": "connect_to_jupyter",
+   "kind": "tool",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1697,
+   "description": "Jupyter server URL to connect to (e.g., 'http://localhost:8888')",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/connect-to-jupyter/"
+  },
+  {
+   "name": "jupyter_cite",
+   "kind": "prompt",
+   "source_file": "jupyter_mcp_server/server.py",
+   "source_line": 1749,
+   "description": "User prompt for the cited cells",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/prompts/jupyter-cite/"
+  },
+  {
+   "name": "launch_sandbox",
+   "kind": "tool",
+   "source_file": "extensions/sandboxes/jupyter_mcp_sandboxes/extension.py",
+   "source_line": 278,
+   "description": "Unique sandbox identifier used by list/use/terminate tools",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/launch-sandbox/"
+  },
+  {
+   "name": "list_sandboxes",
+   "kind": "tool",
+   "source_file": "extensions/sandboxes/jupyter_mcp_sandboxes/extension.py",
+   "source_line": 457,
+   "description": "List launched code sandboxes that can be used as alternatives to kernels.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/list-sandboxes/"
+  },
+  {
+   "name": "use_sandbox",
+   "kind": "tool",
+   "source_file": "extensions/sandboxes/jupyter_mcp_sandboxes/extension.py",
+   "source_line": 468,
+   "description": "Select which launched sandbox execute_code should use instead of kernels.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/use-sandbox/"
+  },
+  {
+   "name": "terminate_sandbox",
+   "kind": "tool",
+   "source_file": "extensions/sandboxes/jupyter_mcp_sandboxes/extension.py",
+   "source_line": 490,
+   "description": "Terminate a launched code sandbox.",
+   "docs_url": "https://jupyter-mcp-server.datalayer.tech/mcp/tools/terminate-sandbox/"
+  }
+ ]
+}
